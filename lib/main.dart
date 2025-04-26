@@ -85,7 +85,7 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            // Imagem de destaque grande com estilo
+            
             ClipRRect(
               borderRadius: BorderRadius.only(
                 bottomLeft: Radius.circular(10),
@@ -115,7 +115,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             SizedBox(height: 34),
-            // Adicionando as imagens da aba destino
+            
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16.0),
               child: SingleChildScrollView(
